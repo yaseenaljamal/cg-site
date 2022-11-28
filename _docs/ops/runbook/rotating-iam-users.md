@@ -9,7 +9,7 @@ title: Rotating Secrets II - IAM users via Terraform
 
 ### IAM Users infrastructure as a code with Terraform
 
-In the [18F/cg-provision](https://github.com/18F/cg-provision) contains the
+In the [cloud-gov/cg-provision](https://github.com/cloud-gov/cg-provision) contains the
 Terraform files used to maintain our AWS infrastructure as code. User modules
 are in the `terraform/modules/iam_user/*` path. Each module is utilized in
 `stack.tf` and prints the `output.tf` contents after a successful Terrafrom
@@ -32,7 +32,7 @@ manifests are updated with the latest version output. The following examples
 show file-diffs for a single user. You will repeat this process across all user
 modules and submit a single PR to begin the secret rotation window. You can also
 find examples of closed and merged pull requests in the [`cg-provision`
-repository](https://github.com/18F/cg-provision/pulls?utf8=✓&q=is%3Apr%20is%3Aclosed%20rotate)
+repository](https://github.com/cloud-gov/cg-provision/pulls?utf8=✓&q=is%3Apr%20is%3Aclosed%20rotate)
 around rotating IAM roles
 
 #### Update the rotation iam_user module to have two access key resources

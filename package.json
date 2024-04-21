@@ -19,7 +19,7 @@
     "pages": "npm run prod:parcel"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-free": "^6.4.2",
     "anchor-js": "^4.3.0",
     "uswds": "^2.13.3"
   },
